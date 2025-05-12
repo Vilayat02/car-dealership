@@ -143,8 +143,6 @@ public class Dealership {
 
     public void addVehicle(Vehicle vehicle) {
         this.inventory.add(vehicle);
-        DealershipFileManager dfm = new DealershipFileManager();
-        dfm.saveDealership(this);
     }
 
     public void removeVehicle(Vehicle vehicle) {
